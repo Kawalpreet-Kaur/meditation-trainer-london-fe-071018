@@ -1,0 +1,33 @@
+.itemheader{grid-area:header; font-size:2em;}
+.itemleft{grid-area:main}
+.itemright{grid-area:right}
+.itemfooter{grid-area:footer}
+
+.container-body{
+  /*display: inline-block;*/
+  display: grid;
+  grid: 'header header header header'
+  'left left right right '
+  'footer footer footer footer';
+  width: 80%;
+  background-color: #f3f3f3;
+  text-align: center;
+  /*align-content: center;*/
+  margin-left:10%;
+  border: 2px solid ;
+  padding:10px;
+  grid-gap: 10px;
+  
+}
+
+/*header{*/
+/*  width: 100%;*/
+/*  text-align:center;*/
+/*  border: 1px solid ;*/
+/*}*/
+
+/*.details{*/
+/*  display: grid;*/
+/*  grid-column: 2;*/
+/*}*/
+
